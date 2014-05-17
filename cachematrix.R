@@ -3,7 +3,7 @@
 
 ## Write a short comment describing this function
 ## This function converts a R based matrix into a cached matrix and
-## and store inverse of the result
+## and store inverse of the resultf
 makeCacheMatrix <- function(x = matrix()) {
 	m <- NULL
 	set <- function(y) {
