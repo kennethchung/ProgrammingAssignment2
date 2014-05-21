@@ -22,18 +22,18 @@ There are three deliverables in this assignment
    The unzip data where the root the data directory should have the following
    directory hierarchy
    
--   $yourdatasouce
--               test\X_text.txt
--               test\y_text.txt
--               test\subject_text.txt
--               train\X_text.txt
--               train\y_text.txt
--               train\subject_train.txt
--               activity_lables.txt
--               features.txt
+   *your data source base directory
+   *      test\X_text.txt
+   *      test\y_text.txt
+   *      test\subject_text.txt
+   *      train\X_text.txt
+   *      train\y_text.txt
+   *      train\subject_train.txt
+   *      activity_lables.txt
+   *      features.txt
 - 4) Run mainprogram("./$yourdatasouce")
  
-- Expected outcome
+*Expected outcome
 - [1] "Number of rows in the Merged Dataset:  10299"
 - [1] "Number columns in the Merged Dataset:  69"
 - [1] "Number of splitted list  180"
