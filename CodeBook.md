@@ -33,7 +33,7 @@ Only the following data from the above unzipped files  will be used
 * Training Subject data from train/subject_test.txt  
   * This contains all subjects associated with the each  record archived in test/X_test.txt
   
-* Test activity data from train/y_test.txt  
+* Test activity data from test/y_test.txt  
   * This contains all activities associated with the each  record archived in test/y_test.txt
 
 
@@ -41,8 +41,14 @@ Only the following data from the above unzipped files  will be used
   * This contains all activities associated with the each  record archived in train/y_train.txt
 
 ### Variables and libraries
+The following variables are used and extracted from various files
 
-"datasets" and "data.table" are expected to installed and loaded.
+* Any Std() and Mean() measurements from train/X_train.txt and test/X_test.txt. See features_info.txt for detail description of all measurements collected in the archives
+* Activity names from activity_labels.txt
+* Subject IDs from test/subject_train.txt  and train/subject_test.txt  
+* activity IDs from train/y_test.txt and test/y_test.txt   
+
+"datasets" and "data.table" libraries are expected to installed and loaded.
 result.completecase.dataset dataset contains the final output for the average of each mean and standard deviation for each activitiy and subject. This dataset is written out to [thebasedatasetdir]/SecondIndependentTidyData.txt
 
 There is an intermedidate dataset that contains merged data from Test,Training, Activity and Std() and mean() Features data.
