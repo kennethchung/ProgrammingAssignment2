@@ -1,6 +1,6 @@
 ### Introduction
 
-This programming assignment will make use of data from
+This programming assignment will make use of data from -- test
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 to 
 - 1) Merges the training and the test sets to create one data set.
